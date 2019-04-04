@@ -26,7 +26,7 @@ import (
 	"strings"
 )
 
-const SIM_NAME = "KUBESIM EPC"
+const SIM_NAME = "MMESIM LC"
 const SIM_CONFIG_FILE = "/etc/kubedge/kubesim_conf.yaml"
 const SIM_CONNECTED_UE_FILE = "/etc/kubedge/connected_ue.yaml"
 const SIMPLE_HTTP_SERVER = false

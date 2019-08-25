@@ -1,6 +1,6 @@
 
 # Image URL to use all building/pushing image targets
-VERSION_V1                  ?= 0.1.0
+VERSION_V1                  ?= 0.1.9
 IMG_BUSINESSLOGIC_DEV       ?= hack4easy/mmesim-fsb-dev:v${VERSION_V1}
 IMG_ENRICHMENT_DEV          ?= hack4easy/mmesim-gpb-dev:v${VERSION_V1}
 IMG_FRONTEND_DEV            ?= hack4easy/mmesim-lc-dev:v${VERSION_V1}

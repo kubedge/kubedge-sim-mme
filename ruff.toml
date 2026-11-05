@@ -1,0 +1,10 @@
+# This repo is Go; the only Python in it is claude-meta's delivered tooling, which
+# runs under `uv run --script` / `uv run --directory plugins/alemax` and is linted
+# meta-side. Keep the pre-commit ruff hooks off it (they pass files by name, and
+# ruff-pre-commit runs with --force-exclude, so extend-exclude applies).
+extend-exclude = [
+  ".agents/",
+  ".claude/",
+  "plugins/",
+  "bin/*.py",
+]
